@@ -1,0 +1,10 @@
+{
+  "simulation": "com.ccousseran.gatling.BasicSimulation",
+  "simulationId": "basicsimulation",
+  "start": 1564997286349,
+  "description": "",
+  "scenarios": ["Basic Simulation"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "simulation": "com.ccousseran.gatling.BasicSimulation",
+  "simulationId": "basicsimulation",
+  "start": 1565008639873,
+  "description": "",
+  "scenarios": ["Basic Simulation"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [2000.0],
+  "result": true,
+  "message": "Global: max of response time is less than 2000.0",
+  "actualValue": [1173.0]
+}
+  ]
+}
